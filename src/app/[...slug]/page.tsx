@@ -11,6 +11,7 @@ interface CrawledPage {
   description?: string;
   h1?: string;
   sections?: { h2s: string[]; h3s: string[]; paragraphs: string[]; list?: string[] }[];
+  images?: { src: string }[];
   error?: string;
 }
 
@@ -47,6 +48,7 @@ export default async function CatchAllPage({ params }: { params: Promise<{ slug:
       h1={page.h1 || page.title || ""}
       description={page.description}
       sections={page.sections || []}
+      images={page.images || []}
     />
   );
 }
