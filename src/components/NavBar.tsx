@@ -28,24 +28,21 @@ export function NavBar() {
         </Link>
 
         <nav className="hidden items-center gap-8 text-[15px] font-medium md:flex" aria-label="Primary">
-          <Link href="#elections-101" className="hover:opacity-70">
+          <Link href="/elections-101" className="hover:opacity-70">
             Elections 101
           </Link>
-          <button
-            type="button"
-            className="inline-flex items-center gap-1 hover:opacity-70"
-          >
+          <Link href="/support" className="inline-flex items-center gap-1 hover:opacity-70">
             Get involved <ChevronDownIcon className="h-4 w-4" />
-          </button>
-          <Link href="#faqs" className="hover:opacity-70">
+          </Link>
+          <Link href="/faqs" className="hover:opacity-70">
             FAQs
           </Link>
-          <Link href="#get-updates" className="bab-btn">
+          <Link href="/sign-up" className="bab-btn">
             Get updates
           </Link>
         </nav>
 
-        <Link href="#get-updates" className="bab-btn md:hidden">
+        <Link href="/sign-up" className="bab-btn md:hidden">
           Get updates
         </Link>
       </div>

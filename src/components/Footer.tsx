@@ -5,21 +5,21 @@ import { InstagramIcon, TikTokIcon, LinkedInIcon, ChevronDownIcon } from "./icon
 
 const links = {
   "Elections 101": [
-    { label: "What you need to know", href: "#what-you-need" },
-    { label: "#auspol explained", href: "#auspol" },
+    { label: "What you need to know", href: "/elections-101" },
+    { label: "#auspol explained", href: "/auspol-explained" },
   ],
   Support: [
-    { label: "How you can help", href: "#help" },
-    { label: "Volunteer", href: "#volunteer" },
-    { label: "Donate", href: "#donate" },
-    { label: "Downloads", href: "#downloads" },
-    { label: "Conversation guides", href: "#guides" },
-    { label: "Partnerships", href: "#partnerships" },
+    { label: "How you can help", href: "/support" },
+    { label: "Volunteer", href: "/support/volunteer" },
+    { label: "Donate", href: "/support" },
+    { label: "Downloads", href: "/support/downloads" },
+    { label: "Conversation guides", href: "/support/conversation-guide" },
+    { label: "Partnerships", href: "/support/partnerships" },
   ],
   About: [
-    { label: "FAQs", href: "#faqs" },
-    { label: "About Build a Ballot", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "FAQs", href: "/faqs" },
+    { label: "About Build a Ballot", href: "/about" },
+    { label: "Contact", href: "/contact" },
   ],
 };
 
@@ -78,10 +78,10 @@ export function Footer() {
             </p>
           </div>
           <nav className="flex flex-wrap gap-6">
-            <Link href="#privacy" className="hover:opacity-80">
+            <Link href="/privacy-policy" className="hover:opacity-80">
               Privacy Policy
             </Link>
-            <Link href="#terms" className="hover:opacity-80">
+            <Link href="/terms-of-use" className="hover:opacity-80">
               Terms of Use
             </Link>
             <a href="#" className="hover:opacity-80">

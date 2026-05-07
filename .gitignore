@@ -50,4 +50,4 @@ temp/
 
 # Local Claude Code tooling state (not part of the template)
 .claude-flow/
-.claude/helpers/
+.claude/helpers
