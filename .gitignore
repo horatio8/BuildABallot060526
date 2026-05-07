@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Local Claude Code tooling state (not part of the template)
+.claude-flow/
+.claude/helpers/
